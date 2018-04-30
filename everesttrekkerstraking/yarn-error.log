@@ -1,14 +1,14 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Eric Goldstein\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
 
 PATH: 
-  C:\Users\Eric Goldstein\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Eric Goldstein\bin;C:\Program Files\Microsoft MPI\Bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\Eric Goldstein\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Eric Goldstein\AppData\Local\atom\bin;C:\Users\Eric Goldstein\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Users\Jeffr_000\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Jeffr_000\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\Jeffr_000\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Users\Jeffr_000\AppData\Roaming\npm;C:\Users\Jeffr_000\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.9.4
+  9.8.0
 
 Platform: 
   win32 x64
@@ -25,7 +25,7 @@ npm manifest:
       "cors": "^2.8.4",
       "express": "^4.16.3",
       "firebase": "^4.12.1",
-      "google-map-react": "^0.34.0",
+      "google-maps-react": "^2.0.2",
       "mongodb": "^3.0.6",
       "mongoose": "^5.0.14",
       "prop-types": "^15.6.1",
@@ -158,10 +158,6 @@ Lockfile:
   "@firebase/webchannel-wrapper@0.2.7":
     version "0.2.7"
     resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.7.tgz#0495fd7294348d9887abb182aa27432cb8936488"
-  
-  "@mapbox/point-geometry@^0.1.0":
-    version "0.1.0"
-    resolved "https://registry.yarnpkg.com/@mapbox/point-geometry/-/point-geometry-0.1.0.tgz#8a83f9335c7860effa2eeeca254332aa0aeed8f2"
   
   abab@^1.0.3:
     version "1.0.4"
@@ -2688,7 +2684,7 @@ Lockfile:
       d "1"
       es5-ext "~0.10.14"
   
-  eventemitter3@1.x.x, eventemitter3@^1.1.0:
+  eventemitter3@1.x.x:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
   
@@ -2893,7 +2889,7 @@ Lockfile:
     dependencies:
       bser "^2.0.0"
   
-  fbjs@^0.8.16, fbjs@^0.8.3:
+  fbjs@^0.8.16:
     version "0.8.16"
     resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
     dependencies:
@@ -3250,15 +3246,6 @@ Lockfile:
       object-assign "^4.0.1"
       pify "^2.0.0"
       pinkie-promise "^2.0.0"
-  
-  google-map-react@^0.34.0:
-    version "0.34.0"
-    resolved "https://registry.yarnpkg.com/google-map-react/-/google-map-react-0.34.0.tgz#c645f8b9a7b3b030547dae2964ff79fc00a402b3"
-    dependencies:
-      "@mapbox/point-geometry" "^0.1.0"
-      eventemitter3 "^1.1.0"
-      fbjs "^0.8.3"
-      scriptjs "^2.5.7"
   
   got@^6.7.1:
     version "6.7.1"
@@ -6529,10 +6516,6 @@ Lockfile:
     dependencies:
       ajv "^5.0.0"
   
-  scriptjs@^2.5.7:
-    version "2.5.8"
-    resolved "https://registry.yarnpkg.com/scriptjs/-/scriptjs-2.5.8.tgz#d0c43955c2e6bad33b6e4edf7b53b8965aa7ca5f"
-  
   select-hose@^2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -7801,16 +7784,15 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 3221225786
+  Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
   Arguments: /d /s /c react-scripts start
-  Directory: C:\Users\Eric Goldstein\Desktop\MTEveresttracker\everesttrekkerstraking
+  Directory: C:\Users\Jeffr_000\Desktop\MTEveresttracker\everesttrekkerstraking
   Output:
   
-      at ProcessTermError.MessageError (C:\Users\Eric Goldstein\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at new ProcessTermError (C:\Users\Eric Goldstein\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
-      at ChildProcess.<anonymous> (C:\Users\Eric Goldstein\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:180:13)
+      at maybeClose (internal/child_process.js:936:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
